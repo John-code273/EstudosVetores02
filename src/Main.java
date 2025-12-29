@@ -15,9 +15,10 @@ void main() {
         System.out.print("Número do quarto: ");
         int numeroQuarto = scanner.nextInt();
         scanner.nextLine();
+        System.out.println("");
         quartos[numeroQuarto] = new Quartos(nome, email);
     }
-
+    System.out.println("");
     System.out.println("Quartos alugados: ");
     for (int i = 0; i < 10; i++) {
         if (quartos[i] != null) {
